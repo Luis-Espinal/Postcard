@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sagrada_Família._Façana_del_Naixement.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lvX-KQ-3Py">
@@ -58,6 +58,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tJC-Uo-BjS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iiz-XX-ONx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY9-nN-rnx">
@@ -104,6 +105,15 @@
                                     <rect key="frame" x="16" y="201" width="288" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnO-9j-S92">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="64" width="194" height="24"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +123,7 @@
                                 <exclude reference="zvd-At-DII"/>
                                 <exclude reference="w2I-gC-P5O"/>
                                 <exclude reference="lxR-jk-IF8"/>
+                                <exclude reference="BnO-9j-S92"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +133,7 @@
                                 <include reference="zvd-At-DII"/>
                                 <include reference="w2I-gC-P5O"/>
                                 <include reference="lxR-jk-IF8"/>
+                                <include reference="BnO-9j-S92"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="lxR-jk-IF8" id="Jz7-kB-SnK"/>
                         <outlet property="mailButton" destination="w2I-gC-P5O" id="QWO-sf-mhu"/>
                         <outlet property="messageLabel" destination="SY9-nN-rnx" id="yD4-Ez-meZ"/>
+                        <outlet property="nameLabel" destination="BnO-9j-S92" id="PzI-Y4-P29"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3sT-f3-Pf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
