@@ -13,6 +13,8 @@
 		0D1B99C219C3EA5B0057830F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1B99C119C3EA5B0057830F /* Images.xcassets */; };
 		0D1B99C519C3EA5B0057830F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1B99C319C3EA5B0057830F /* LaunchScreen.xib */; };
 		0D1B99D119C3EA5B0057830F /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B99D019C3EA5B0057830F /* PostcardTests.swift */; };
+		0D1B99DB19C3EB5B0057830F /* drseuss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D1B99DA19C3EB5B0057830F /* drseuss.jpg */; };
+		0D1B99DD19C3EB7F0057830F /* Sagrada_Família._Façana_del_Naixement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D1B99DC19C3EB7F0057830F /* Sagrada_Família._Façana_del_Naixement.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0D1B99CA19C3EA5B0057830F /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1B99CF19C3EA5B0057830F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D1B99D019C3EA5B0057830F /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		0D1B99DA19C3EB5B0057830F /* drseuss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drseuss.jpg; sourceTree = "<group>"; };
+		0D1B99DC19C3EB7F0057830F /* Sagrada_Família._Façana_del_Naixement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sagrada_Família._Façana_del_Naixement.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		0D1B99B819C3EA5A0057830F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D1B99DC19C3EB7F0057830F /* Sagrada_Família._Façana_del_Naixement.jpg */,
+				0D1B99DA19C3EB5B0057830F /* drseuss.jpg */,
 				0D1B99B919C3EA5B0057830F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,8 @@
 				0D1B99C019C3EA5B0057830F /* Main.storyboard in Resources */,
 				0D1B99C519C3EA5B0057830F /* LaunchScreen.xib in Resources */,
 				0D1B99C219C3EA5B0057830F /* Images.xcassets in Resources */,
+				0D1B99DB19C3EB5B0057830F /* drseuss.jpg in Resources */,
+				0D1B99DD19C3EB7F0057830F /* Sagrada_Família._Façana_del_Naixement.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
